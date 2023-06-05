@@ -1,0 +1,38 @@
+.background{
+    background-color: #1F2937
+}
+
+.heromaintext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.herotext2,.headerlink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headelogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.buttoncolor, .calltabackgroundcolor{
+    color: #3882F6;
+    background-color: #3882F6;
+}
+
+.information, .headertext{
+    font-size: 38px;
+    color: #1f2937;
+}
+
+.qoutebg{
+    background-color: #E5E7EB;
+}
+
+.qoute{
+    font-size: 36x;
+    font-family: "light italic", sans-serif
+}
