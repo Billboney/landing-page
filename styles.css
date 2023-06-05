@@ -1,4 +1,4 @@
-.background{
+body {
     background-color: #1F2937
 }
 
@@ -11,6 +11,11 @@
 .herotext2,.headerlink {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.img1{
+    width: 300px;
+    height 300px;
 }
 
 .headelogo{
