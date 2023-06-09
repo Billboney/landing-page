@@ -8,8 +8,8 @@ body {
 }
 
 .spacing{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 19.1%;
+    margin-right: 19.1%;
 }
 
 .lialign{
@@ -17,7 +17,6 @@ body {
     list-style: none;
     flex-direction: row;
     justify-self:flex-start;
-    margin-left: auto;
 }
 
 .liMarginLeft{
@@ -26,11 +25,6 @@ body {
 
 .liMarginRight{
     margin-right: 20px;
-}
-
-.marginLeftRight{
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
 ul{
@@ -46,19 +40,22 @@ ul{
 .herotext2,.headerlink {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 0;
+}
+
+.herotext2{
+    margin:0;
 }
 
 .img1{
     width: 400px;
     height: 200px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .img2, .img3, .img4, .img5{
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     margin: 10px;
     margin-bottom: 10px;
     border: solid #3882F6 3px;
@@ -79,6 +76,8 @@ ul{
     
 }
 
+
+
 .headerlogo{
     font-size: 24px;
     color: #F9FAF8;
@@ -86,19 +85,20 @@ ul{
 }
 
 .buttoncolor, .calltoaction{
-    color: #3882F6;
+    color: #F9FAF8;
     background-color: #3882F6;
     border: none;
 }
 
-input{
-    border-radius: 10%;
+button{
+    min-height: 25px;
+    min-width: 80px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 fieldset {
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+    border-radius: 10px;
     }
 
 .information{
@@ -108,12 +108,41 @@ fieldset {
     margin: 0px;
 }
 
+.margin0{
+    margin:0;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    min-width:61.8
+}
+
 .qoutebg{
     background-color: #E5E7EB;
     width: 100%;
+    margin: 0;
+}
+
+.notqoutebg{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0;
+}
+
+.divsize{
+    height: 20px;
+}
+
+.bottomright{
+    display:flex;
+    justify-content: flex-end;
 }
 
 .qoute{
-    font-size: 36x;
-    font-family: "light italic", sans-serif
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: light;
+    font-style: italic;
 }
